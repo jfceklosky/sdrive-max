@@ -1,0 +1,7 @@
+# boot loader
+avrdude -carduino -pm328p -P /dev/ttyUSB0  -U flash:w:eeprom_writer.hex
+
+# Sdrive max
+avrdude -carduino -pm328p -P /dev/ttyUSB0  -U flash:w:SDrive.hex 
+
+

@@ -6,7 +6,8 @@
 PROJECT = SDrive
 MCU = atmega328
 TARGET = SDrive.elf
-CC = avr-gcc
+#CC = avr-gcc
+CC = /home/jceklosk/.platformio/packages/toolchain-atmelavr/bin/avr-gcc
 AWK = awk
 
 ## Options common to compile, link and assembly rules
